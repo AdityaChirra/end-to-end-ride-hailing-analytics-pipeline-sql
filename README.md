@@ -1,8 +1,9 @@
 # 🚖 Ride-Sharing SQL Analytics — Hyderabad
 
-![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)   ![pgAdmin](https://img.shields.io/badge/pgAdmin%204-336791?style=for-the-badge&logo=postgresql&logoColor=white)   ![SQL](https://img.shields.io/badge/SQL-%23FF6B35.svg?style=for-the-badge&logo=databricks&logoColor=white)   ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
+![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)   ![pgAdmin](https://img.shields.io/badge/pgAdmin%204-336791?style=for-the-badge&logo=postgresql&logoColor=white)   ![SQL](https://img.shields.io/badge/SQL-%23FF6B35.svg?style=for-the-badge&logo=databricks&logoColor=white)   ![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)   ![Status](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)
 
-> SQL-based analytics project on a Hyderabad ride-sharing dataset — identifying why a profitable system still bleeds money.
+> SQL-based analytics project on a Hyderabad ride-sharing dataset — identifying why a profitable system still bleeds money.  
+> Includes an interactive **Power BI dashboard** for visual exploration of key metrics.
 
 ---
 
@@ -100,6 +101,10 @@ ride-sharing-sql-analytics/
 ├───outputs
 │       results.txt
 │
+├───powerbi
+│       ride-hailing-analytics.pbix
+│       ride-hailing-analytics.png
+│
 └───sql
     │   run_all.sql
     │
@@ -114,6 +119,8 @@ ride-sharing-sql-analytics/
             01_schema.sql
             02_load_data.sql
 ```
+
+The **Power BI dashboard** (`ride-hailing-analytics.pbix`) provides an interactive view of revenue, costs, trip completion, and driver performance, making it easy to explore the insights at a glance.
 
 ---
 
