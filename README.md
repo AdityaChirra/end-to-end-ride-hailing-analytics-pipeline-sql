@@ -124,4 +124,12 @@ The **Power BI dashboard** (`ride-hailing-analytics.pbix`) provides an interacti
 
 ---
 
+## 📊 Power BI Dashboard
+
+![Power BI Dashboard](powerbi/ride-hailing-analytics.png)
+
+The interactive dashboard provides a visual view of revenue, costs, trip completion, and driver performance — built on top of the same SQL analysis in this repo.
+
+---
+
 *Built by [Aditya Chirra](https://github.com/AdityaChirra)*
